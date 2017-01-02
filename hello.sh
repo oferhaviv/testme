@@ -49,8 +49,8 @@ else
 	search="<version>development-SNAPSHOT<"
 	rep="<version>"$INP"-SNAPSHOT<"
 	sed -i 's/'${search}'/'${rep}'/g' pom.xml
-#	git add pom.xml
-#	git commit -m "update pom.xml file"
+	git add pom.xml
+	git commit -m "update pom.xml file"
 
 fi
 
