@@ -22,6 +22,7 @@ echo $var
 
 # init start point
 git checkout master -q
+git add hello.sh
 
 #check if version exists (adding Release as prefix)
 if  [ `git branch --list Release/$INP` ]
