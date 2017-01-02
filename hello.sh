@@ -1,5 +1,7 @@
 # /e/Users/oferh/Documents/git/project
 #!/bin/bash 
+
+cd project
 set +x
 INP="1.4"
 buildNumber=0
