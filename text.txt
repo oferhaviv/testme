@@ -1,2 +1,3 @@
 Test git project
 New line for next commit
+just another change
